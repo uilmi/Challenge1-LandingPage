@@ -563,20 +563,23 @@ label {
 
 input {
     display: inline;
-    background-color:rgb(51, 51, 51);
+    background-color:rgb(51, 47, 47);
     margin-right: 10px;
     font-size: 18px;
     color: #ffffff;
     width: 280px;
     height: 60px;
     text-indent: 10px;
-/* left: 675.92px; */
-/* top: 510.7px; */
-
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    outline:none;
+    border: transparent;
+    border-radius: 5px;
 }
-::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+
+::placeholder { 
   color: #ffb548;
-  opacity: 1; Firefox
+  opacity: 1;
 }
 
 ::selection {
@@ -624,13 +627,13 @@ input {
 }
 
 /* about footer */
-#footer a, p{
-  font-family: "Open Sans", sans-serif;
-  font-size: 18px; /* 12px */
+#footer a{
   color: #ffffff;
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.75rem; /* 12px */
+  font-weight: 700;
+   cursor: pointer;
 }
-
-
 #footer-grid-container {
   position: absolute;
   display: grid;
@@ -657,7 +660,7 @@ input {
 }
 
 .menu-footer1 a {
-  color: #ffffff;
+  
   text-decoration: none;
   padding: 1vw;
   
@@ -669,7 +672,7 @@ input {
 }
 
 .menu-footer2 img {
-  cursor: pointer;
+  
   margin: 18px;
   justify-content: space-between;
   align-items: center;
@@ -687,33 +690,33 @@ input {
 .menu-footer3{
   margin-top: -40px;
   grid-column-start: 2;
-  grid-column-end: 5;
+  grid-column-end: 3;
   grid-row-start: 3;
   grid-row-end: 4;
   height: 50px;
-  align-items: center;
   text-align: left;
 }
 
 .menu-footer3 p{
-  opacity: 0.6;
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.85rem; /* 12px */
+  opacity: 0.7;
   text-align: left;  
 }
 
 .menu-footer4 {
-  margin-top: -40px;
+  margin-top: -8px;
   grid-column-start: 2;
   grid-column-end: 5;
   grid-row-start: 3;
   grid-row-end: 4;
-  margin-right: 10%;
+  margin-right: 11%;
   height: 50px;
-  align-items: center;
   text-align: right;
+  /* cursor: pointer; */
 }
 
 .menu-footer4 a {
-  color: #ffffff;
+  /* color: #ffffff; */
   text-decoration: none;
-  cursor: pointer;
 }
