@@ -1,2 +1,2 @@
-# challenge1-LandingPage
+# Challenge1-LandingPage
 FSW Chapter 3 Challenge #1
